@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,7 @@
             background: white;
             display: flex;
             min-height: 100vh;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         .sidebar {
@@ -59,7 +60,7 @@
         }
 
         .certification-item {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 8px;
             padding: 15px;
             margin-bottom: 15px;
@@ -69,7 +70,7 @@
         }
 
         .certification-item:hover {
-            background: rgba(255,255,255,0.15);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .cert-badge-small {
@@ -282,10 +283,11 @@
             margin-bottom: 3px;
         }
 
-        .work-company {
+        .work-company, .work-company a {
             font-size: 14px;
             color: #3498db;
             font-weight: 500;
+            text-decoration: none;
         }
 
         .work-period {
@@ -442,6 +444,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="resume-container">
         <div class="sidebar">
@@ -463,34 +466,38 @@
                 </div>
             </div>
 
-            <a href="https://www.credly.com/badges/41875c34-526f-4420-b153-fe5853eb1be3/public_url" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://www.credly.com/badges/41875c34-526f-4420-b153-fe5853eb1be3/public_url" target="_blank"
+                style="text-decoration: none; color: inherit;">
                 <div class="sidebar-section certifications-section">
                     <h3 class="sidebar-title">Certifications</h3>
 
                     <div class="certification-item">
                         <div class="cert-badge-small">
-                            <img src="https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS SAA">
+                            <img src="https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+                                alt="AWS SAA">
                         </div>
                         <div class="cert-info">
-                            <div class="cert-title">Solutions Architect Associate</div>
+                            <div class="cert-title">Solutions Architect Associate (2025)</div>
                             <div class="cert-issuer">Amazon Web Services</div>
                         </div>
                     </div>
                     <div class="certification-item">
                         <div class="cert-badge-small">
-                            <img src="https://learn.microsoft.com/en-gb/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified: Azure Fundamentals">
+                            <img src="https://learn.microsoft.com/en-gb/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+                                alt="Microsoft Certified: Azure Fundamentals">
                         </div>
                         <div class="cert-info">
-                            <div class="cert-title">Microsoft Certified: Azure Fundamentals</div>
+                            <div class="cert-title">Microsoft Certified: Azure Fundamentals (2025)</div>
                             <div class="cert-issuer">Microsoft</div>
                         </div>
                     </div>
                     <div class="certification-item">
                         <div class="cert-badge-small">
-                            <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob" alt="Terraform Associate">
+                            <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob"
+                                alt="Terraform Associate">
                         </div>
                         <div class="cert-info">
-                            <div class="cert-title">Terraform Associate </div>
+                            <div class="cert-title">Terraform Associate (2025)</div>
                             <div class="cert-issuer">HashiCorp</div>
                         </div>
                     </div>
@@ -500,14 +507,11 @@
             <div class="sidebar-section">
                 <h3 class="sidebar-title">Skills</h3>
                 <ul class="skills-list">
-                    <li>AWS Cloud Architecture & Serverless Solutions</li>
-                    <li>DevOps & CI/CD Pipeline Automation</li>
-                    <li>Microservices Design & API Development</li>
-                    <li>Backend Development (C#/.NET, Python, Node.js)</li>
-                    <li>Fontend Development (Typescript, Vue.js, React.js)</li>
-                    <li>Infrastructure as Code (Terraform, CloudFormation)</li>
-					<li>Database Design & Optimization (MongoDB, MySQL)</li>
-                    <li>Automated Testing (Playwright, Python)</li>
+                    <li><strong>Cloud &amp; DevOps</strong>: AWS Cloud Architecture (EC2, ECS, Fargate, SQS, SNS, S3, Cognito, Lambda, API Gateway) , Serverless Solutions , Terraform , CloudFormation , CI/CD (GitHub Actions, GitLab CI/CD) </li>
+                    <li><strong>Backend</strong>: C#/.NET , Python , Node.js , Microservices Design & API Development </li>
+                    <li><strong>Frontend</strong>: TypeScript , Vue.js , React.js</li>
+                    <li><strong>Databases</strong>: MongoDB , MySQL , PostgreSQL , DynamoDB</li>
+                    <li><strong>Quality</strong>: Automated Testing (Playwright, Python)</li>
                 </ul>
             </div>
 
@@ -517,32 +521,44 @@
             <div class="header">
                 <h1 class="name">ALEX NORWELL</h1>
                 <p class="job-title">Senior Software Engineer</p>
-                <p class="job-subtitle">AWS Certified Solutions Architect, Full-Stack Development, IaC</p>
+                <p class="job-subtitle">AWS Certified Solutions Architect, Full-Stack Development, Infrastructure as
+                    Code</p>
                 <div class="divider"></div>
             </div>
 
             <div class="section">
                 <h2 class="section-title">Profile</h2>
                 <p class="profile-text">
-					I specialise in building and scaling <strong>end-to-end solutions</strong> — from idea to production. I thrive in startup and fast-paced environments where adaptability, ownership, and speed matter most.
-<br><br>
-					As a certified <strong>AWS Solutions Architect – Associate</strong>, <strong>Microsoft Certified: Azure Fundamentals</strong>, and <strong>HashiCorp Certified: Terraform Associate</strong>, I design and deliver secure, scalable, and cost-efficient systems. My approach goes beyond writing code: I align architecture, development, DevOps, and automation into complete solutions that accelerate delivery, improve reliability, and reduce operational overhead.
-
+                    <strong>AWS Certified Solutions Architect</strong> and Senior Software Engineer specializing in
+                    building and scaling <strong>end-to-end solutions</strong> from idea to production. My focus is
+                    always on building working systems, not just writing code.
+                    <br><br>
+                    I thrive in startup and fast-paced environments where
+                    <strong>adaptability, ownership, and speed</strong> matter most. As a certified architect, I design
+                    and deliver secure, scalable, and cost-efficient systems. My approach aligns
+                    <strong>architecture, development, DevOps, and automation</strong> into complete solutions that
+                    accelerate delivery, improve reliability, and reduce operational overhead.
                 </p>
             </div>
 
-<div class="section">
-                <h2 class="section-title">Core Competencies</h2>
+            <div class="section">
+                <h2 class="section-title">Practical expertise &amp; value</h2>
                 <ul class="work-responsibilities">
-                    <li><strong>AWS Cloud Architecture:</strong> Certified AWS Solutions Architect with 7+ years of practical experience across EC2, ECS, Fargate, SQS, SNS, S3, Cognito, Route 53, API Gateway, Lambda, and serverless architectures — delivering resilient, cost-optimised solutions.</li>
-                    <li><strong>API & Microservices:</strong> Skilled in designing RESTful APIs and microservices that scale with business growth and speed up feature delivery.</li>
-                    <li><strong>Backend Development:</strong> Recent hands-on expertise with C# for building robust backend systems; extensive past experience with Node.js for APIs and microservices.</li>
-                    <li><strong>Databases:</strong> Advanced MongoDB schema design and aggregation queries for faster analytics and simplified data workflows. Additional experience with MySQL and PostgreSQL, including schema design, optimization, and query performance tuning.</li>
-                    <li><strong>DevOps & Automation:</strong> Experienced with GitHub Actions, GitLab CI/CD, and Terraform — streamlining deployments to save time and reduce errors.</li>
-                    <li><strong>Web Development:</strong> Proficient in TypeScript, Node.js, and Vue.js, creating smooth, user-focused applications.</li>
-                    <li><strong>Quality Assurance:</strong> Hands-on with Playwright and Python to ensure reliable releases through automated testing.</li>
+                    <li><strong>AWS Cloud Architecture:</strong> Certified Solutions Architect with hands-on experience across EC2, ECS, Fargate, Lambda, and serverless architectures, delivering
+                        <strong>resilient, cost-optimised solutions</strong>.
+                    </li>
+                    <li><strong>API & Microservices:</strong> Skilled in designing RESTful APIs and microservices that
+                        scale with business growth and
+                        <strong>speed up feature delivery</strong>.
+                    </li>
+                    <li><strong>DevOps & Automation:</strong> Experienced with GitHub Actions, GitLab CI/CD, and Terraform, 
+                        <strong>streamlining deployments to save time and reduce overhead</strong>.</li>
+                    <li><strong>Databases:</strong> Advanced MongoDB schema design and aggregation queries for 
+                        <strong>faster analytics and simplified data workflows</strong>. 
+                        Additional experience with MySQL and PostgreSQL, including optimization and query performance tuning.</li>
+                    <li><strong>Full-Stack Development:</strong> Proficient in C#/.NET and TypeScript/Vue.js/Node.js, with the rare blend of cloud architecture expertise and full-stack development skills to 
+                        <strong>deliver results that matter</strong>.</li>
                 </ul>
-                <p class="profile-text">With a rare blend of cloud architecture expertise and full-stack development skills, I deliver results that matter. My focus is always on building working systems, not just writing code — making me especially effective in startups and high-growth companies where end-to-end ownership is key.</p>
             </div>
 
             <div class="section">
@@ -552,32 +568,30 @@
                     <div class="work-header">
                         <div>
                             <div class="work-title">Senior Software Engineer</div>
-                            <div class="work-company">PayFURL</div>
+                            <div class="work-company"><a href="https://payfurl.com">PayFURL</a></div>
                         </div>
                         <div class="work-period">Apr 2022 - Jul 2025</div>
                     </div>
-                    <div class="work-description">
-                        I play a pivotal role in ensuring the seamless operation and advancement of our purpose-built payments orchestration platform.
-                    </div>
                     <ul class="work-responsibilities">
-                        <li>Leverage AWS services (API Gateway, Cognito, Route 53, DynamoDB) to architect robust payment orchestration solutions</li>
-                        <li>Utilize Terraform for Infrastructure as Code, enabling automated resource provisioning and management</li>
-                        <li>Spearhead CI/CD pipelines with GitHub Actions and GitLab CI/CD for streamlined deployment processes</li>
-                        <li>Employ .NET Framework on AWS Lambda for developing scalable, high-performance API platforms</li>
-                        <li>Create intuitive user interfaces using Vue.js/TypeScript for diverse client needs</li>
-                        <li>Implement comprehensive automated testing using Python and Playwright for platform reliability</li>
-                        <li>Lead integration of Mastercard features (Card-on-File, Click to Pay, Token Authentication) and third-party gateways</li>
+                        <li>Implemented comprehensive automated testing using <strong>Python and Playwright</strong> to ensure platform reliability and security, reducing defects in production</li>
+                        <li>Utilised <strong>Terraform for Infrastructure as Code (IaC)</strong>, enabling automated resource provisioning and management of robust payment orchestration solutions leveraged across AWS services (API Gateway, Cognito, Route 53, DynamoDB)</li>
+                        <li>Spearheaded CI/CD pipelines with <strong>GitHub Actions and GitLab CI/CD</strong> for streamlined deployment processes, accelerating delivery</li>
+                        <li>Played a pivotal role in ensuring the seamless operation and advancement of the purpose-built payments orchestration platform using 
+                            <strong>.NET Framework on AWS Lambda</strong> for scalable, high-performance API platforms</li>
+                        <li>Led integration of major Mastercard features (Card-on-File, Click to Pay, Token Authentication) and third-party gateways.</li>
                     </ul>
                     <div class="tech-skills">
                         <span class="tech-tag">AWS</span>
                         <span class="tech-tag">Terraform</span>
                         <span class="tech-tag">Gitlab CI/CD</span>
                         <span class="tech-tag">RESTful API</span>
+                        <span class="tech-tag">Microservices</span>
                         <span class="tech-tag">C#/.NET</span>
                         <span class="tech-tag">MongoDB</span>
                         <span class="tech-tag">DynamoDB</span>
                         <span class="tech-tag">TypeScript</span>
                         <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">React.js</span>
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Playwright</span>
                     </div>
@@ -587,18 +601,17 @@
                     <div class="work-header">
                         <div>
                             <div class="work-title">Senior Software Developer</div>
-                            <div class="work-company">Bench</div>
+                            <div class="work-company"><a href="https://benchmedia.com/">Bench</a></div>
                         </div>
                         <div class="work-period">Oct 2016 - Apr 2022</div>
                     </div>
                     <ul class="work-responsibilities">
-                        <li>Brought outsourced pre-alpha version in-house using Node.js with Meteor framework and MongoDB</li>
-                        <li>Led development team with two junior direct reports, delivered first production release in early 2017</li>
-                        <li>Played crucial role in containerizing application and migrating product to AWS infrastructure</li>
-                        <li>Implemented GitLab-based source control and established CI/CD processes</li>
-                        <li>Migrated AWS infrastructure from CloudFormation templates to Terraform</li>
-                        <li>Participated in architecting company's Data Warehouse using PostgreSQL</li>
-                        <li>Mentored 4 junior developers, helping them advance to Software Developer positions</li>
+                        <li>Brought an outsourced pre-alpha version in-house, leading the development team (with two junior direct reports) to deliver the first production release in early 2017. Played a crucial role in 
+                            <strong>containerizing the application</strong> and migrating the product to AWS infrastructure</li>
+                        <li>Migrated AWS infrastructure from CloudFormation templates to <strong>Terraform</strong>, improving infrastructure management and control.</li>
+                        <li>Mentored <strong>4 Junior developers</strong>, helping them advance to Software Developer positions</li>
+                        <li>Implemented GitLab-based source control and established <strong>CI/CD processes</strong> for streamlined deployment processes, accelerating delivery</li>
+                        <li>Participated in architecting company's Data Warehouse using <strong>PostgreSQL</strong></li>
                     </ul>
                     <div class="tech-skills">
                         <span class="tech-tag">AWS</span>
@@ -623,13 +636,12 @@
                         </div>
                         <div class="work-period">Aug 2013 - Sep 2016</div>
                     </div>
-                    <div class="work-description">
-                        Familoop is a content-controlled software marketed towards parents as a way to control child’s PC, Mac and mobile devices activity.
-                    </div>
                     <ul class="work-responsibilities">
-                        <li>Implemented the company’s web portal from scratch using PHP and MySQL. Christmas 2013 Release was a huge success with more than 9000 sales during the first 3 days</li>
-                        <li>During 2014 optimized and prepared to scale up the environment to support up to 100 000 simultaneous connections in a distributed infrastructure.</li>
-                        <li>Developed interface for syncing huge amounts of data with MongoDB which was used as temporarily fast storage for uncategorized data</li>
+                        <li>Implemented the company's web portal from scratch using <strong>PHP and MySQL</strong>. The Christmas 2011 release was a huge success with 
+                            <strong>more than 9,000 sales during the first 3 days</strong>.</li>
+                        <li>During 2014, optimized and prepared to scale the environment to support up to <strong>100,000 simultaneous connections</strong> in a distributed infrastructure.</li>
+                        <li>Developed an interface for syncing huge amounts of data with 
+                            <strong>MongoDB</strong>, which was used as temporarily fast storage for uncategorized data.</li>
                         <li>Mentored junior developers and played an active role in the company hiring process.</li>
                     </ul>
                     <div class="tech-skills">
@@ -647,13 +659,10 @@
                         </div>
                         <div class="work-period">Aug 2008 - Jul 2013</div>
                     </div>
-                    <div class="work-description">
-                        Racoon Games is a privately owned game-developing startup that had been launching flash games on Facebook and other popular social networks.
-                    </div>
                     <ul class="work-responsibilities">
-                        <li>Implemented the core game engine from scratch using ActionScript 3.0, PHP and Redis as storage. The most popular game had 1.6m installations and up to 30k DAU in 2012</li>
-                        <li>In 2013 total numbers of installations reached 5m and DAU up to 100k.</li>
-                        <li>In 2012 consulting Kaliningrad game development company to help them improve their game core performance</li>
+                        <li>Implemented the core game engine from scratch using <strong>ActionScript 3.0, PHP, and Redis</strong>. The most popular game reached 
+                            <strong>15 million installations and up to 30k Daily Active Users (DAU) in 2012</strong>.</li>
+                        <li>Consulted a game development company in 2012 to help them improve their game performance.</li>
                         <li>Mentored junior developers and played an active role in the company hiring process.</li>
                     </ul>
                     <div class="tech-skills">
@@ -666,4 +675,5 @@
         </div>
     </div>
 </body>
+
 </html>
